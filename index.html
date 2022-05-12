@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="css/style.css" rel="stylesheet" media="all">
+        <title>Imajine</title>
+    </head>
+
+    <body>
+      <div class="container">
+         <div class="card-container">
+            <img src="https://imajine.us/public/media/logo.svg" class="logoSizeLogin" >
+            <table >
+               <tr>
+                  <td colspan="3"><input type="text" disabled="true" value="0" id="calculator-display"/></td>
+                  <td><button type="button" id="btn-clear">C</button></td>
+               </tr>
+               <tr>
+                  <td><input class="calculator-number" type="button" value="1"/></td>
+                  <td><input class="calculator-number" type="button" value="2"/></td>
+                  <td><input class="calculator-number" type="button" value="3"/></td>
+                  <td><input class="calculator-operator" type="button" value="/"/></td>
+               </tr>
+               <tr>
+                  <td><input class="calculator-number" type="button" value="4"/></td>
+                  <td><input class="calculator-number" type="button" value="5"/></td>
+                  <td><input class="calculator-number" type="button" value="6"/></td>
+                  <td><input class="calculator-operator" type="button" value="-"/></td>
+               </tr>
+               <tr>
+                  <td><input class="calculator-number" type="button" value="7"/></td>
+                  <td><input class="calculator-number" type="button" value="8"/></td>
+                  <td><input class="calculator-number" type="button" value="9"/></td>
+                  <td><input class="calculator-operator" type="button" value="+"/></td>
+               </tr>
+               <tr>
+                  <td><input class="calculator-number" type="button" value="0"/></td>
+                  <td colspan="2"><button type="button" id="btn-equal">=</button></td>
+                  <td><input class="calculator-operator" type="button" value="*"/></td>
+               </tr>
+            </table>
+            <p class="error-message d-none" id="error-message">Error, try again later</p>
+            <a href="history.html">Calculation history</a>
+         </div>
+      </div>
+    </body>
+
+    <script src="js/calculator.js"></script>
+</html>

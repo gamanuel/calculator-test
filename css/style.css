@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html {
+  height: 100vh;
+}
+
+body {
+    background: #6233E8; /* fallback for old browsers */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.d-none {
+  display: none;
+}
+
+.logoSizeLogin {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+a, .history {
+  margin: 15px 0 0;
+  text-decoration: none;
+  color: #6233E8;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4925ac;
+  text-decoration: underline;
+}
+
+.container {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.card-container {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+input, button {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #6233E8;
+    color: white;
+    width: 100%;
+    border: 0;
+    margin:  0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover, button:hover {
+  background-color: #532bc2;
+}
+
+table {
+  width: 100%;
+}
+
+table, td {
+  border: none;
+}
+
+input[type="text"] {
+  background-color:white;
+  color: black;
+  text-align: end;
+  font-size: medium;
+  border: solid rgb(92, 92, 92) 1px;
+  width:100%
+}
+
+.history {
+  align-items: center;
+  border: solid #4925ac 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 11px;
+  color: red;
+}
