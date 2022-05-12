@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', e => {
 
     function history(){
         requestHistory().then(response => {
-            console.log(response);
             displayHistory(response.history);
         }, err => {
             console.error(err);
