@@ -15,4 +15,4 @@ See it [here](api/model/modelDatos.php)
 
 Demo url: localhost/imajine/
 
-The first time that the application do a request to the backend, if the db is not created yet an script will be run to create the db.
+The first time that the application do a request to the backend, if the db is not created yet an script will be run to create it.
